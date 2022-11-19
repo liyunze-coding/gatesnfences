@@ -135,6 +135,7 @@ body{
 
 #intro{
     margin-top:20px;
+    margin-bottom:0;
     width:90%;
     border-top: solid 2px gray;
     border-left:solid 2px gray;
@@ -172,11 +173,13 @@ body{
 
 .images-div{
     text-align:center;
+    overflow:hidden;
 }
 
 .images-div img {
     border-radius:10px;
     margin:10px;
+    width:25%;
 }
 
 a h1 {
@@ -232,11 +235,12 @@ input[type="submit"]:hover {
     margin-left: 10px;
 }
 
-
-
 @media only screen and (max-width:1280px) {
     .post-slide .post-content{
         padding: 0px 15px 25px 15px;
     }
-}
 
+    .my-custom-div {
+        width:90%;
+    }
+}
