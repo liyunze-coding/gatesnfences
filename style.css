@@ -160,7 +160,7 @@ body{
 
     margin-bottom:20px;
 
-    padding: 20px;
+    padding: 2px 20px 2px;
 }
 
 .my-custom-div h1,h2 {
@@ -209,7 +209,7 @@ textarea {
 
 input[type="submit"] {
     background-color: #4caf50;
-    padding: 12px 20px;
+    padding: 6px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -221,6 +221,7 @@ input[type="submit"]:hover {
 
 #contact-div {
     width:90%;
+    padding:20px;
 }
 
 #contact-title {
@@ -233,6 +234,10 @@ input[type="submit"]:hover {
     font-size: smaller;
     display: inline-block;
     margin-left: 10px;
+}
+
+.aluminium_gates_qna p:not(.last-p) {
+    margin-bottom:20px;
 }
 
 @media only screen and (max-width:1280px) {
