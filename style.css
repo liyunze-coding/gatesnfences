@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat&display=swap');
+
 body{
     /* background-color: #ffea94 */
     background-image:url('./images/marble.jpg');
+}
+
+.logo {
+    font-family: 'Great Vibes', cursive;
 }
 
 #news-slider{
@@ -147,6 +153,12 @@ body{
     text-align:center
 }
 
+.information{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-end:unset;
+}
+
 .my-custom-div {
     position:relative;
     left:50%;
@@ -163,9 +175,16 @@ body{
     padding: 2px 20px 2px;
 }
 
-.my-custom-div h1,h2 {
-    text-align:center;
+.information .my-custom-div{
+    width:90%;
 }
+
+.my-custom-div h1:not(.logo),h2 {
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 
 .my-custom-div p {
     text-align: justify;
@@ -227,6 +246,7 @@ input[type="submit"]:hover {
 #contact-title {
     margin-bottom: 15px;
     font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .status {
@@ -240,6 +260,12 @@ input[type="submit"]:hover {
     margin-bottom:20px;
 }
 
+.pool img {
+    width:40%;
+}
+
+
+
 @media only screen and (max-width:1280px) {
     .post-slide .post-content{
         padding: 0px 15px 25px 15px;
@@ -247,5 +273,9 @@ input[type="submit"]:hover {
 
     .my-custom-div {
         width:90%;
+    }
+
+    .information {
+        grid-template-columns: 1fr;
     }
 }
