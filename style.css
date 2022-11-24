@@ -142,7 +142,6 @@ body{
 #intro{
     margin-top:20px;
     margin-bottom:0;
-    width:90%;
     border-top: solid 2px gray;
     border-left:solid 2px gray;
     border-right:solid 5px rgb(42, 42, 42);
@@ -285,6 +284,12 @@ input[type="submit"]:hover {
         padding: 0px 15px 25px 15px;
     }
 
+    .my-custom-div {
+        width:80%;
+    }
+}
+
+@media only screen and (max-width:768px) {
     .my-custom-div {
         width:90%;
     }
