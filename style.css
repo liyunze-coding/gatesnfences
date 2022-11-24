@@ -178,6 +178,14 @@ body{
     width:90%;
 }
 
+.navbar-brand.logo {
+    font-size:2em;
+}
+
+h1.logo {
+    font-size:5em;
+}
+
 .my-custom-div h1:not(.logo),h2 {
     text-align:center;
     font-family: 'Montserrat', sans-serif;
@@ -268,7 +276,8 @@ input[type="submit"]:hover {
 .page-header {
     margin-top:20px;
     margin-bottom:0;
-    width:50%;
+    padding:20px;
+    width:45%;
     border-top: solid 2px gray;
     border-left:solid 2px gray;
     border-right:solid 5px rgb(42, 42, 42);
@@ -298,7 +307,11 @@ input[type="submit"]:hover {
         grid-template-columns: 1fr;
     }
 
-    .my-custom-div h1 {
-        font-size:30px;
+    .page-header h1 {
+        font-size:3em;
+    }
+
+    .page-header h3{
+        font-size:1.5em;
     }
 }
